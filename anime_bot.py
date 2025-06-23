@@ -113,4 +113,4 @@ async def anime_list(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     if update.effective_user.id == update.effective_chat.id:
-    pass
+    await update.message.reply_text("👋 Welcome to Tenjiku Anime Bot! Type /start to begin your anime adventure!")
